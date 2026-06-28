@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: haraj-yemen
+    env: docker
+    plan: free
+    repo: https://github.com/InnoGuardTech/webprogect
+    branch: main # أو تأكد أن الفرع الافتراضي هو main
